@@ -4,7 +4,7 @@ btn.addEventListener("click", () => {
   btn.style.cursor = "inherit";
   document.querySelector(".upin").classList.add("active");
   document.querySelector(".ipin").classList.add("active");
-  for (var i = 0; i < 100; i++) {
+  for (var i = 0; i < 30; i++) {
     var drop = document.createElement("div");
     drop.className = "drop";
     drop.style.left = Math.random() * 100 + "vw";
